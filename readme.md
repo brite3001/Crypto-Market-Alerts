@@ -24,5 +24,7 @@ At the moment I've got two signals implemented
 
 ## TODO
 - Dockerfile is broken, need to fix after the refactor
-- App is probably really brittle, very little/no error checking
--
+- Add is probably really brittle, very little/no error checking
+- Add python args to select the signal you'd like to use
+- Add the args to Docker to select a signal
+- Add some docs about using the container on docker and dockerswarm
