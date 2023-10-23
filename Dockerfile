@@ -1,5 +1,6 @@
 FROM python:3.10
 
+# https://medium.com/@albertazzir/blazing-fast-python-docker-builds-with-poetry-a78a66f5aed0
 RUN pip install poetry==1.3.1
 
 ENV POETRY_NO_INTERACTION=1 \
