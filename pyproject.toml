@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "crypto market signals"
+version = "0.1.0"
+description = "Provides financial signals for the crypto market based off data from Binance"
+authors = ["brite3001"]
+license = "GNU GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-binance = "^1.0.19"
+PyYAML = "^6.0.1"
+talipp = "^1.9.1"
+schedule = "^1.2.1"
+gotify = "^0.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

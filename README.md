@@ -16,11 +16,14 @@ At the moment I've got two signals implemented
 - `cd ~`
 - `git clone https://github.com/brite3001/Crypto-Market-Alerts.git`
 - `cd Crypto-Market-Alerts`
-- `python3 -m venv env`
-- `source env/bin/activate`
+- `pip install poetry`
+- `poetry install`
+- `poetry shell`
 - `python3 crypto_signal.py`
 
 ## Run the app with Docker
+- `docker build -t crypto_signals .`
+- `docker run crypto_signals`
 
 ## TODO
 - ~~Dockerfile is broken, need to fix after the refactor~~
