@@ -9,8 +9,8 @@ At the moment I've got two signals implemented
 
 
 ## Crappy Getting Started
-- Modify the binance_keys.yaml file with your Binance API key and secret
-- Modify the gotify_settings.yaml with your base_url and app_token for your gotify server
+- Modify the binance_keys.yaml file with your [Binance API key](https://www.binance.com/en/support/faq/how-to-create-api-keys-on-binance-360002502072) and secret. The only API restriction you need to tick is `Enable Reading`.
+- Modify the gotify_settings.yaml with your base_url and app_token for your [gotify server](https://gotify.net/docs/install)
 
 ## Run the App
 - `cd ~`
