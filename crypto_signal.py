@@ -80,7 +80,7 @@ def main():
     )
 
     # schedule.schedule.every().day.at("10:00", "Australia/Victoria").do(
-    #     get_signal, gotify=gotify, sliding_window=sliding_window
+    #     get_signal, gotify=gotify, sliding_window=sliding_window, candle_size=candle_size,
     # )
 
     while True:
