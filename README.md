@@ -1,5 +1,5 @@
-# Crypto signal Generator
-Generates market signals based on the crypto market data via the Binance python API. Uses gotify to send signal notifications to my phone.
+# Crypto Market Signals
+Generates market signals based on the crypto market data. OHLCV data is grabbed from the python-binance API. Uses gotify to send signal notifications to my phone.
 
 
 ## Signals
