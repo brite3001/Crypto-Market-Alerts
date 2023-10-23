@@ -14,8 +14,8 @@ At the moment I've got two signals implemented
 
 ## Run the App
 - `cd ~`
-- `git clone https://github.com/brite3001/Crypto-Market-Alerts.git`
-- `cd Crypto-Market-Alerts`
+- `git clone https://github.com/brite3001/Crypto-Market-Signals.git`
+- `cd Crypto-Market-Signals`
 - `pip install poetry`
 - `poetry install`
 - `poetry shell`
